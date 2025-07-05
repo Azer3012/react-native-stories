@@ -1,7 +1,7 @@
 {
-  "name": "react-native-insta-story",
-  "title": "React Native Insta Story",
-  "version": "1.1.9",
+  "name": "custom-react-native-stories",
+  "title": "React Native Stories",
+  "version": "1.0.2",
   "description": "Story component for React Native.",
   "main": "index.ts",
   "files": [
@@ -17,18 +17,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caglardurmus/react-native-insta-story.git",
-    "baseUrl": "https://github.com/caglardurmus/react-native-insta-story"
+    "url": "git+https://github.com/Azer3012/react-native-stories.git",
+    "baseUrl": "https://github.com/Azer3012/react-native-stories.git"
   },
   "keywords": [
     "react-native",
-    "insta-story",
-    "story",
-    "instagram"
+    "react-native-story",
+    "story"
+    
   ],
   "author": {
-    "name": "Ahmet Çağlar Durmuş",
-    "email": "caglardurmus@icloud.com"
+    "name": "Azar Abishov",
+    "email": "abishovazar@gmail.com"
   },
   "readmeFilename": "README.md",
   "peerDependencies": {

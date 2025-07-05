@@ -1,7 +1,7 @@
-# react-native-insta-story
+# custom-react-native-stories
 
 <p align="center">
-<img src="./images/example.gif" height="500" />
+
 </p>
 
 ## Install
@@ -9,13 +9,13 @@
 #### 1. Step
 
 ```javascript
-npm install react-native-insta-story --save
+npm install custom-react-native-stories --save
 ```
 
 or
 
 ```javascript
-yarn add react-native-insta-story
+yarn add custom-react-native-stories
 ```
 
 #### 2. Step
@@ -27,7 +27,7 @@ cd ios && pod install
 ## Import
 
 ```javascript
-import InstaStory from 'react-native-insta-story';
+import InstaStory from 'custom-react-native-stories';
 ```
 
 ## Props
@@ -66,46 +66,40 @@ import InstaStory from 'react-native-insta-story';
 ### Basic
 
 ```javascript
-import InstaStory from 'react-native-insta-story';
+import InstaStory from 'custom-react-native-stories';
 
 const data = [
   {
     user_id: 1,
-    user_image:
-      'https://pbs.twimg.com/profile_images/1222140802475773952/61OmyINj.jpg',
-    user_name: 'Ahmet Çağlar Durmuş',
+    user_image: 'https://..jpg',
+    user_name: 'Azer Abishov',
     stories: [
       {
         story_id: 1,
-        story_image:
-          'https://image.freepik.com/free-vector/universe-mobile-wallpaper-with-planets_79603-600.jpg',
+        story_image: 'https://...jpg',
         swipeText: 'Custom swipe text for this story',
         onPress: () => console.log('story 1 swiped'),
       },
       {
         story_id: 2,
-        story_image:
-          'https://image.freepik.com/free-vector/mobile-wallpaper-with-fluid-shapes_79603-601.jpg',
+        story_image: 'https://...jpg',
       },
     ],
   },
   {
     user_id: 2,
-    user_image:
-      'https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80',
-    user_name: 'Test User',
+    user_image: 'https://...jpg',
+    user_name: 'Nurmehemmed Nebiyev',
     stories: [
       {
         story_id: 1,
-        story_image:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjORKvjcbMRGYPR3QIs3MofoWkD4wHzRd_eg&usqp=CAU',
+        story_image: 'https://...jpg',
         swipeText: 'Custom swipe text for this story',
         onPress: () => console.log('story 1 swiped'),
       },
       {
         story_id: 2,
-        story_image:
-          'https://files.oyebesmartest.com/uploads/preview/vivo-u20-mobile-wallpaper-full-hd-(1)qm6qyz9v60.jpg',
+        story_image: 'https://...jpg',
         swipeText: 'Custom swipe text for this story',
         onPress: () => console.log('story 2 swiped'),
       },
@@ -113,12 +107,7 @@ const data = [
   },
 ];
 
-<InstaStory
-  data={data}
-  duration={10}
-/>
-
-
+<InstaStory data={data} duration={10} />;
 ```
 
 ### Custom components
@@ -175,5 +164,5 @@ const handleSeenStories = async (item) => {
     </View>
   )}
   style={{ marginTop: 30 }}
-/>
+/>;
 ```

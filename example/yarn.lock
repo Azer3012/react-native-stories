@@ -2189,6 +2189,15 @@ css-in-js-utils@^2.0.0:
     hyphenate-style-name "^1.0.2"
     isobject "^3.0.1"
 
+custom-react-native-stories@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/custom-react-native-stories/-/custom-react-native-stories-1.0.1.tgz#f4e33ca69ffd978c8ccf6c06bc543cfdcca0ce2d"
+  integrity sha512-TP5uCgwLNvjvASMh9wWOxvwVMBD31Y2Mr/0EOsLP2GsdUO3kkhYYLcPBfetBmaVlrNkU3tw18v2aeJmgsVnQyw==
+  dependencies:
+    prop-types "^15.6.2"
+    react-native-modalbox "^2.0.2"
+    react-native-swipe-gestures "^1.0.5"
+
 dayjs@^1.8.15:
   version "1.10.7"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"

@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import InstaStory from 'react-native-insta-story';
+import InstaStory from 'custom-react-native-stories';
 
 export default function App() {
   function createData() {
