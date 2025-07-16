@@ -23,7 +23,7 @@ export const Story = ({
   duration,
   swipeText,
   avatarSize,
-  showAvatarText,
+  showAvatarText = true,
   avatarTextStyle,
   onStorySeen,
   renderCloseComponent,
@@ -214,6 +214,6 @@ const styles = StyleSheet.create({
 
 export default Story;
 
-Story.defaultProps = {
-  showAvatarText: true,
-};
+// Story.defaultProps = {
+//   showAvatarText: true,
+// };
