@@ -1,7 +1,7 @@
 {
   "name": "custom-react-native-stories",
   "title": "React Native Stories",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Story component for React Native.",
   "main": "index.ts",
   "files": [

@@ -29,7 +29,7 @@ export const StoryListItem = ({
   userId,
   profileImage,
   profileName,
-  duration,
+  duration = 10000,
   onFinish,
   onClosePress,
   stories,
@@ -45,6 +45,7 @@ export const StoryListItem = ({
   storyImageStyle,
   storyAvatarImageStyle,
   storyContainerStyle,
+
   ...props
 }: StoryListItemProps) => {
   const [load, setLoad] = useState<boolean>(true);
@@ -333,9 +334,7 @@ export const StoryListItem = ({
 
 export default StoryListItem;
 
-StoryListItem.defaultProps = {
-  duration: 10000,
-};
+
 
 const styles = StyleSheet.create({
   container: {
